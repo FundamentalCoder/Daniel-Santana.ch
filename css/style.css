@@ -7,3 +7,24 @@ body {
 h1 {
     font-size: 50px;
 }
+
+/* Navigation bar styles----------------------------------------------------*/
+
+.navbar {
+    /* Flexbox layout für die Navigationsleiste */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+.navbar a {
+    text-decoration: none;
+    color: black;
+
+}
+/* Navigation bar styles ENDE------------------------------------------------*/
